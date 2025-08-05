@@ -1,6 +1,6 @@
 # excel-filter-tool
 
-📊 A Streamlit app to filter, group, and export Excel data with styled summaries.
+📊 A lightweight Excel filtering tool to monitor book packaging progress in publishing workflows.
 
 ---
 
@@ -8,18 +8,16 @@
 
 This project was developed during my internship at **FERNUS**, an educational technology company based in Ankara, Turkey.
 
-FERNUS needed a simple tool to automate the summarization of Excel files used in book packaging.  
+FERNUS needed a tool to track the packaging status of books by brand and category from Excel files.  
+This app was built to automate that process and provide clear summaries of what’s done and what remains.
 
-This app was built to replace the slow and error-prone manual process.
+It was built for internal use at FERNUS to help track book packaging progress more easily across brands and categories.
 
 It provides a clean interface to:
 - Upload Excel files from the production workflow
 - Group data by brand and category
 - Classify books as **Katmanlı / Katmansız**
 - Export styled summary reports in Excel format
-
-
----
 
 ## 🚀 Features
 
