@@ -8,7 +8,9 @@
 
 This project was developed during my internship at **FERNUS**, an educational technology company based in Ankara, Turkey.
 
-FERNUS needed a tool to quickly summarize Excel files related to book packaging. Manual analysis was slow and error-prone, so this app was built to automate the process through a simple interface.
+FERNUS needed a simple tool to automate the summarization of Excel files used in book packaging.  
+
+This app was built to replace the slow and error-prone manual process.
 
 It provides a clean interface to:
 - Upload Excel files from the production workflow
@@ -16,7 +18,6 @@ It provides a clean interface to:
 - Classify books as **Katmanlı / Katmansız**
 - Export styled summary reports in Excel format
 
-Although it was originally built for internal use at FERNUS, the tool is general-purpose and can be adapted to other structured Excel workflows.
 
 ---
 
@@ -43,6 +44,5 @@ Although it was originally built for internal use at FERNUS, the tool is general
 - **[Streamlit](https://streamlit.io/)** – for building the interactive web interface
 - **[pandas](https://pandas.pydata.org/)** – for data processing and grouping
 - **[openpyxl](https://openpyxl.readthedocs.io/)** – for Excel export and styling
-- **Python 3.10+**
 
 ---
