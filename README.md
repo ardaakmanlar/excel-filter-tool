@@ -1,46 +1,45 @@
 # excel-filter-tool
 
-📊 A lightweight Excel filtering tool to monitor book packaging progress in publishing workflows.
+A lightweight Excel filtering tool for tracking book packaging progress in publishing workflows.
 
 ---
 
-## 📘 About the Project
+## About the Project
 
 This project was developed during my internship at **FERNUS**, an educational technology company based in Ankara, Turkey.
 
-FERNUS needed a tool to track the packaging status of books by brand and category from Excel files.  
-This app was built to automate that process and provide clear summaries of what’s done and what remains.
+FERNUS needed a tool to track the packaging status of books by brand and category using data stored in Excel files.  
+This tool was built to automate that process and provide a clear overview of which books have been processed and which ones are still pending.
 
-It was built for internal use at FERNUS to help track book packaging progress more easily across brands and categories.
+It was specifically designed for internal use at FERNUS to simplify the tracking of packaging workflows across different brands and categories.
 
-It provides a clean interface to:
-- Upload Excel files from the production workflow
-- Group data by brand and category
-- Classify books as **Katmanlı / Katmansız**
-- Export styled summary reports in Excel format
+The tool offers a simple web-based interface that allows users to:
+- Upload Excel files from the book production pipeline
+- Group and filter data by brand, category, and packaging status
+- Classify books as either "Katmanlı" or "Katmansız"
+- Export the results as a well-formatted Excel report
 
-## 🚀 Features
+---
 
-- 📁 Upload Excel files (`.xlsx`) through a user-friendly web interface
-- 📊 Automatically filter and group data by:
+## Features
+
+- Upload Excel files (`.xlsx`) via a user-friendly web interface
+- Automatically group and filter data by:
   - Brand (`MARKA ADI`)
   - Category (`KATEGORİ ADI`)
   - Packaging Status (`PAKETLEME DURUMU`)
-- 🧠 Adds a computed label for PDF type: **Katmanlı / Katmansız**
-- 📤 Export results into a single Excel file with:
+- Automatically assign a "Katmanlı" or "Katmansız" label based on PDF metadata
+- Export the output to a single Excel file that includes:
   - Multiple sheets (`Kategori`, `Marka`, `Detaylı`)
-  - Auto-sized columns and active filters
-  - Colored headers and alternating row colors
-  - Styled borders and centered text
-- 🌐 Fully browser-based — no local Excel installation needed
-- ⚙️ Built with only Python and open-source libraries
+  - Styled headers, alternating row colors, borders, and filters
+  - Auto-adjusted column widths
+- Runs entirely in the browser—no Excel installation required
+- Built using Python and open-source libraries only
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
-- **[Streamlit](https://streamlit.io/)** – for building the interactive web interface
-- **[pandas](https://pandas.pydata.org/)** – for data processing and grouping
-- **[openpyxl](https://openpyxl.readthedocs.io/)** – for Excel export and styling
-
----
+- [Streamlit](https://streamlit.io/) – interactive web interface
+- [pandas](https://pandas.pydata.org/) – data manipulation and aggregation
+- [openpyxl](https://openpyxl.readthedocs.io/) – Excel export and styling
