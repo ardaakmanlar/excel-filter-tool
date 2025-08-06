@@ -8,8 +8,7 @@ A lightweight Excel filtering tool for tracking book packaging progress in publi
 
 This project was developed during my internship at **FERNUS**, an educational technology company based in Ankara, Turkey.
 
-FERNUS needed a tool to track the packaging status of books by brand and category using data stored in Excel files.  
-This tool was built to automate that process and provide a clear overview of which books have been processed and which ones are still pending.
+This tool that track the packaging status of books by brand and category using data stored in Excel files.  
 
 It was specifically designed for internal use at FERNUS to simplify the tracking of packaging workflows across different brands and categories.
 
